@@ -10,7 +10,6 @@ npm-debug.log*
 
 # Compiled files (such as JavaScript, CSS, and other assets)
 /node_modules/
-/dist/
 /build/
 /out/
 
