@@ -4,7 +4,11 @@ import mongoose from "mongoose";
 import cors from "cors";
 import authRoute from "./routes/auth.js";
 import taskRoute from "./routes/manage.js";
-import path from "path";
+import { fileURLToPath } from 'url';
+import path,{ dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 dotenv.config();
 const app=express();
