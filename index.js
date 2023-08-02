@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import authRoute from "./routes/auth.js";
 import taskRoute from "./routes/manage.js";
-const path = require("path");
+import path from "path";
 
 dotenv.config();
 const app=express();
